@@ -14,7 +14,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>Введите логин и пароль чтобы получить полный доступ:</p>
-
+    <p>Логин: <code>admin</code> Пароль: <code>admin</code></p>
     <?php $form = ActiveForm::begin([
         'id' => 'login-form',
         'layout' => 'horizontal',
